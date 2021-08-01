@@ -19,7 +19,6 @@ path = '/Users/bmlee/Desktop/music/'
 rename_dir_path = path + "rename/"
 
 if __name__ == '__main__':
-
     if not os.path.exists(rename_dir_path):
         os.mkdir(rename_dir_path)
     file_list = os.listdir(path)
